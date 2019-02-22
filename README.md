@@ -23,3 +23,4 @@
     cd <cs3notebooks folder>
     jupyter notebook
 ```
+- start from 00-Introduction.ipynb chpater
