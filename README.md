@@ -5,7 +5,6 @@
 ## Requirements
 - Jupyter Notebook
 - xeus-cling notebook kernel
-- git
 
 ## Install required tools
 - Install Miniconda: https://conda.io/miniconda.html
@@ -19,8 +18,8 @@
 ```
 
 ## Run notebooks
-- open a terminal and cd into this cloned repo and run jupyter notebook
+- open a terminal and cd into this cloned/downloaded repository folder and run jupyter notebook
 ```
-    cd <cs2notebooks folder>
+    cd <cs3notebooks folder>
     jupyter notebook
 ```
