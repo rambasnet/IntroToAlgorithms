@@ -1,6 +1,6 @@
 # CS3 Notebooks
 
-# CS3 - Introduction to Algorithms using C++ & Jupyter Notebooks
+# CS3 - Introduction to Algorithms using C++
 
 ## Requirements
 - Jupyter Notebook
