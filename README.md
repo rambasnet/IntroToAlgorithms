@@ -9,12 +9,12 @@
 
 ## Install required tools
 - Install Miniconda: https://conda.io/miniconda.html 
-- If you're installing in Linux/Unix from *.sh file, run the following command on terminal
+- If you're installing on Linux/Unix/Mac from *.sh file, run the following command from terminal
     ``` 
     bash Miniconda3.....sh
     ```
 - On Linux/Mac, open a terminal and run the following commands
-- On Windows follow the instruction here: https://github.com/QuantStack/xeus-cling
+- On Windows, follow the instruction here: https://github.com/QuantStack/xeus-cling
 to install xeus-clint
 ```
     $ conda install notebook
