@@ -8,8 +8,14 @@
 - xeus-cling notebook kernel
 
 ## Install required tools
-- Install Miniconda: https://conda.io/miniconda.html
-- open a terminal and run the following commands
+- Install Miniconda: https://conda.io/miniconda.html 
+- If you're installing in Linux/Unix from *.sh file, run the following command on terminal
+    ``` 
+    bash Miniconda3.....sh
+    ```
+- On Linux/Mac, open a terminal and run the following commands
+- On Windows follow the instruction here: https://github.com/QuantStack/xeus-cling
+to install xeus-clint
 ```
     $ conda install notebook
     $ conda install -c conda-forge xeus-cling
