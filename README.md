@@ -15,7 +15,7 @@
     ```
 - On Linux/Mac, open a terminal and run the following commands
 - On Windows, follow the instruction here: https://github.com/QuantStack/xeus-cling
-to install xeus-clint
+to install xeus-cling
 ```
     $ conda install notebook
     $ conda install -c conda-forge xeus-cling
