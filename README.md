@@ -26,18 +26,19 @@
 - go through installation process; default works great on every prompt
 - once conda is installed; use conda to install the following pacakages
 - you have to close and start a new terminal to run freshly installed conda
-```
-$ conda install notebook
-$ conda install -c conda-forge xeus-cling
-$ conda install -c conda-forge jupyter_contrib_nbextensions
-$ conda install -c conda-forge jupyter_nbextensions_configurator
-$ jupyter nbextensions_configurator enable --user
-```
+    ```
+    $ conda install notebook
+    $ conda install -c conda-forge xeus-cling
+    $ conda install -c conda-forge jupyter_contrib_nbextensions
+    $ conda install -c conda-forge jupyter_nbextensions_configurator
+    $ jupyter nbextensions_configurator enable --user
+    ```
     
 ### Windows
 - On Windows, follow the instruction here: https://github.com/QuantStack/xeus-cling
 to install xeus-cling
 - NOTE: C++ compiler is experimental on Windows, you can enable and use WSL (Ubuntu) on Windows 10
+    - Follow Linux/Mac instructions above 
 
 
 ## Run notebooks
