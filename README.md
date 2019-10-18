@@ -1,7 +1,7 @@
 # CS3 Notebooks
 
 # CS3 - Introduction to Algorithms using C++
-- based on OpenDSA: CS3 Data Structures and Algorithms: https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/
+- based on **CS3 Data Structures and Algorithms:** https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/
 
 ## View the notebooks online at [nbviewer.jupyter.org](https://nbviewer.jupyter.org/github/rambasnet/CS3Notebooks/tree/master/)
 - github itself renders notebooks most of the time but not reliable and some contents may not render correctly
@@ -14,7 +14,7 @@
 - Jupyter Notebook
 - xeus-cling Notebook Kernel (C++ interpreter)
 
-## Install required tools
+## Install Required Tools
 ### Linux/Mac
 - Download and install Miniconda: https://conda.io/miniconda.html 
 - download Miniconda3...sh shell script installer file
@@ -37,14 +37,16 @@
 ### Windows
 - On Windows, follow the instruction here: https://github.com/QuantStack/xeus-cling
 to install xeus-cling
-- NOTE: C++ compiler is experimental on Windows, you can enable and use WSL (Ubuntu) on Windows 10
-    - Follow Linux/Mac instructions above 
+- NOTE: C++ interpreter kernel is experimental on Windows
+- Recommended: 
+    - enable and use WSL (Ubuntu) on Windows 10
+    - follow Linux/Mac instructions above 
 
 
-## Run notebooks
+## Run Notebooks
 - open a terminal and cd into this cloned/downloaded repository folder and run jupyter notebook
-```
+    ```
     $ cd <cs3notebooks folder>
     $ jupyter notebook
-```
+    ```
 - start from 00-Introduction.ipynb chapter
