@@ -5,10 +5,9 @@
 
 using namespace std;
 
-
 // Complete Binary Tree - ADT
 // Array/Vector-based implementation
-class BinaryTree {
+class CompleteBinaryTree {
     // vector to store data for binary tree of char types
     private: vector<char> bt;
     // meta data
@@ -47,7 +46,7 @@ class BinaryTree {
         }
     
     // constructor
-    public: BinaryTree(int max_size) {
+    public: CompleteBinaryTree(int max_size) {
         this->root = 0;
         this->size = 0;
         this->bt.resize(max_size);
@@ -56,7 +55,7 @@ class BinaryTree {
         fill(this->bt.begin(), this->bt.end(), '\0');
     }
     
-    public: 
+    public: // methods
         // get the actual size of Binary Tree
         int getSize() { return this->size; }
         // get the max size of Binary Tree
@@ -72,7 +71,7 @@ class BinaryTree {
         // insert a node; left to right level by level
         void insertNode(char data) { 
             if (isFull()) {
-                cout << "Debug: Binary Tree is Full!" << endl;
+                cerr << "Debug: Binary Tree is Full!" << endl;
                 return;
             }
             this->bt[size++] = data;
@@ -82,9 +81,9 @@ class BinaryTree {
         void updateLeftChild(int parent, char data) {
             int leftChild = 2 * parent + 1;
             if (leftChild >= this->max_size)
-                cout << "Debug: Binary Tree out of bounds!" << endl;
+                cerr << "Debug: Binary Tree out of bounds!" << endl;
             else if (this->bt[parent] == '\0')
-                cout << "Debug: parent at index " << parent << " does NOT exist!";
+                cerr << "Debug: parent at index " << parent << " does NOT exist!";
             else {
                 if (bt[leftChild] == '\0')
                     size++; // add a new child
@@ -96,9 +95,9 @@ class BinaryTree {
         void updateRightChild(int parent, char data) {
             int rightChild = 2 * parent + 2;
             if (rightChild >= this->max_size)
-                cout << "Debug: Binary Tree out of bounds!" << endl;
+                cerr << "Debug: Binary Tree out of bounds!" << endl;
             else if (this->bt[parent] == '\0')
-                cout << "Debug: Parent at index " << parent << " does NOT exist!";
+                cerr << "Debug: Parent at index " << parent << " does NOT exist!";
             else {
                 if (bt[rightChild] == '\0')
                     size++;
