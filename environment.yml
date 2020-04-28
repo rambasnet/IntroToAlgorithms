@@ -1,0 +1,6 @@
+name: cs3-notebooks
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - xeus-cling
