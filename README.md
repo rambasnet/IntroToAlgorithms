@@ -1,7 +1,7 @@
-# CS3 Notebooks
+# Intoduction to Algorithm Notebooks
 
-# CS3 - Introduction to Algorithms using C++
-- based on **CS3 Data Structures and Algorithms:** https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/
+# Introduction to Algorithms using C++
+- Jupyter notebooks for text **CS3 Data Structures and Algorithms:** https://opendsa-server.cs.vt.edu/ODSA/Books/CS3/html/
 
 ## View the notebooks online at [nbviewer.jupyter.org](https://nbviewer.jupyter.org/github/rambasnet/CS3Notebooks/tree/master/)
 - github itself renders notebooks most of the time but not reliable and some contents may not render correctly
